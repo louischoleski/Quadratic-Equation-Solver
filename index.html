@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Quadratic Equation Solver</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="style/style.css"/>
+		
+	</head>
+	<body>
+		<h1>Quadratic Equation Solver</h1>
+		<p><strong>General form:</strong> <i>ax<sup>2</sup> + bx + c = d </i></p>
+		
+		<form id="myForm" action="">
+			<div>
+				<label for="param_a">a: </label>
+				<input type="number" name="param_a" /> 
+			</div>
+			<div>
+				<label for="param_b">b: </label>
+				<input type="number" name="param_b" />	
+			</div>
+			<div>
+				<label for="param_c">c: </label>
+				<input type="number" name="param_c" />	
+			</div>
+			<div>
+				<label for="param_d">d: </label>
+				<input type="number" name="param_d" />
+			</div>
+			<br />
+			<input type="button" value="Solve" onClick="quadraticEquationSolver()"/>	
+		</form>
+		<script src="js/script.js" ></script>
+	</body>
+</html>
