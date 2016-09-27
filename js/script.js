@@ -11,16 +11,16 @@ function quadraticEquationSolver(){
 	var delta = (b*b)-(4*a*c);
 	// 2. Evaluation of delta.
 	if (delta <  0){
-		alert('No solution');
+		document.getElementById("solution").innerHTML = "No solution !";
 	}
 	else if (delta == 0){
 		x1 = -b/2*a;
-		alert('There is one solution: ' + x1);
+		document.getElementById("solution").innerHTML = 'There is one solution: ' + x1;
 	
 	}
 	else if (delta > 0) {
 		x1 = (-b + Math.sqrt(delta))/2*a;	
 		x2 = (-b - Math.sqrt(delta))/2*a;	
-		alert('There is two solutions: (' + x2 +', ' + x1 + ') ' );
+		document.getElementById("solution").innerHTML = 'There is two solutions: (' + x2 +', ' + x1 + ') ';
 	}
 }
