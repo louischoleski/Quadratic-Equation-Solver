@@ -22,4 +22,3 @@ To use this project you need a web browser autorizing JavaScript script executio
 
 *  Third Dynasty of Ur
 *  Babylonian mathematicians
-
